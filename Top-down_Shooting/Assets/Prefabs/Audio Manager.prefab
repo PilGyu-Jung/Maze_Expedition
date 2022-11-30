@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5246132628394528650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5246132628394528651}
+  - component: {fileID: 5246132628394528644}
+  m_Layer: 0
+  m_Name: Audio Listener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5246132628394528651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246132628394528650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5246132629864773150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &5246132628394528644
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246132628394528650}
+  m_Enabled: 1
+--- !u!1 &5246132629864773122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5246132629864773150}
+  - component: {fileID: 5246132629864773149}
+  - component: {fileID: 5246132629864773148}
+  - component: {fileID: 5246132629864773123}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5246132629864773150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246132629864773122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5246132628394528651}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5246132629864773149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246132629864773122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d7d8d57a634be4f855d8fa06e6a9b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5246132629864773148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246132629864773122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2236ca85ea1729c448ef390f20e5c63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainTheme: {fileID: 8300000, guid: de1c7e4fe64d70b49a37acdd4381d04b, type: 3}
+  menuTheme: {fileID: 8300000, guid: 164f33f60d4d185439fc4089e48dd5fb, type: 3}
+--- !u!114 &5246132629864773123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5246132629864773122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ec8e537f2010041856d29b19cbe252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupID: Impact
+    group:
+    - {fileID: 8300000, guid: 35bfa4ae92fae61488a79d197e07dcd2, type: 3}
+    - {fileID: 8300000, guid: 551442f47b80bba4a8da46c4ea42d617, type: 3}
+    - {fileID: 8300000, guid: ea422365a8d23c44fa87ab47d26f53d6, type: 3}
+  - groupID: Enemy Death
+    group:
+    - {fileID: 8300000, guid: c132b2074e90c5141a269686c149fa8f, type: 3}
+    - {fileID: 8300000, guid: 74cb1e5b1adcd9245b97dcd97f1f59a8, type: 3}
+  - groupID: Enemy Attack
+    group:
+    - {fileID: 8300000, guid: c6ee874c36989ea41a64f7d8292d5b4b, type: 3}
+  - groupID: Level Complete
+    group:
+    - {fileID: 8300000, guid: 1fddc812449bea442ae62106f02d7643, type: 3}
+  - groupID: Player Death
+    group:
+    - {fileID: 8300000, guid: 4ad9a9b544b52c944bb6112d47453d46, type: 3}
+  - groupID: HealConsume
+    group:
+    - {fileID: 8300000, guid: cfce0cea076109f478783201b2a9f57f, type: 3}
+  - groupID: AmmoConsume
+    group:
+    - {fileID: 8300000, guid: acbcb75601b0082458fda8807f67c813, type: 3}
