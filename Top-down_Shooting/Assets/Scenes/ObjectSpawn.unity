@@ -20533,123 +20533,123 @@ MonoBehaviour:
   waves:
   - infinite: 0
     enemyCount: 7
-    moveSpeedA: 6
-    moveSpeedB: 4
+    moveSpeedA: 5
+    moveSpeedB: 3
     enemyHealthA: 5
     enemyHealthB: 4
     hitsToKillPlayer: 10
     skinColour: {r: 1, g: 0, b: 0.010321617, a: 1}
     timeBetweenSpawns: 3
-    spawnRarity_A: 7
-    spawnRarity_B: 3
+    spawnRarity_A: 4
+    spawnRarity_B: 1
     count_ItemHealth: 1
     count_ItemAmmo: 1
-    minSpawnTime_Heal: 0
-    maxSpawnTime_Heal: 0
-    minSpawnTime_Ammo: 0
-    maxSpawnTime_Ammo: 0
-  - infinite: 0
-    enemyCount: 15
-    moveSpeedA: 10
-    moveSpeedB: 6
-    enemyHealthA: 6
-    enemyHealthB: 5
-    hitsToKillPlayer: 9
-    skinColour: {r: 0.990566, g: 0.041325007, b: 0, a: 1}
-    timeBetweenSpawns: 3
-    spawnRarity_A: 0
-    spawnRarity_B: 1
-    count_ItemHealth: 2
-    count_ItemAmmo: 2
-    minSpawnTime_Heal: 1
-    maxSpawnTime_Heal: 4
-    minSpawnTime_Ammo: 3
+    minSpawnTime_Heal: 2
+    maxSpawnTime_Heal: 6
+    minSpawnTime_Ammo: 2
     maxSpawnTime_Ammo: 6
   - infinite: 0
     enemyCount: 15
     moveSpeedA: 6
-    moveSpeedB: 4
+    moveSpeedB: 3.3
     enemyHealthA: 5
-    enemyHealthB: 4
-    hitsToKillPlayer: 10
-    skinColour: {r: 0, g: 1, b: 0.09174347, a: 0}
-    timeBetweenSpawns: 2
-    spawnRarity_A: 7
-    spawnRarity_B: 3
+    enemyHealthB: 5
+    hitsToKillPlayer: 9
+    skinColour: {r: 0.990566, g: 0.041325007, b: 0, a: 1}
+    timeBetweenSpawns: 2.8
+    spawnRarity_A: 3
+    spawnRarity_B: 1
     count_ItemHealth: 2
     count_ItemAmmo: 2
-    minSpawnTime_Heal: 0
-    maxSpawnTime_Heal: 0
-    minSpawnTime_Ammo: 0
-    maxSpawnTime_Ammo: 0
+    minSpawnTime_Heal: 1
+    maxSpawnTime_Heal: 9
+    minSpawnTime_Ammo: 1
+    maxSpawnTime_Ammo: 6
   - infinite: 0
-    enemyCount: 15
-    moveSpeedA: 6
-    moveSpeedB: 4
-    enemyHealthA: 5
-    enemyHealthB: 4
-    hitsToKillPlayer: 10
+    enemyCount: 32
+    moveSpeedA: 6.5
+    moveSpeedB: 3.6
+    enemyHealthA: 6
+    enemyHealthB: 5
+    hitsToKillPlayer: 8
     skinColour: {r: 0, g: 1, b: 0.09174347, a: 0}
-    timeBetweenSpawns: 2
-    spawnRarity_A: 7
-    spawnRarity_B: 3
-    count_ItemHealth: 2
-    count_ItemAmmo: 2
-    minSpawnTime_Heal: 0
-    maxSpawnTime_Heal: 0
-    minSpawnTime_Ammo: 0
-    maxSpawnTime_Ammo: 0
+    timeBetweenSpawns: 2.6
+    spawnRarity_A: 1
+    spawnRarity_B: 1
+    count_ItemHealth: 3
+    count_ItemAmmo: 3
+    minSpawnTime_Heal: 3
+    maxSpawnTime_Heal: 9
+    minSpawnTime_Ammo: 3
+    maxSpawnTime_Ammo: 9
   - infinite: 0
-    enemyCount: 15
-    moveSpeedA: 6
-    moveSpeedB: 4
-    enemyHealthA: 5
-    enemyHealthB: 4
-    hitsToKillPlayer: 10
+    enemyCount: 50
+    moveSpeedA: 7
+    moveSpeedB: 3.9
+    enemyHealthA: 6
+    enemyHealthB: 6
+    hitsToKillPlayer: 7
     skinColour: {r: 0, g: 1, b: 0.09174347, a: 0}
-    timeBetweenSpawns: 2
+    timeBetweenSpawns: 2.4
     spawnRarity_A: 7
     spawnRarity_B: 3
-    count_ItemHealth: 2
-    count_ItemAmmo: 2
-    minSpawnTime_Heal: 0
-    maxSpawnTime_Heal: 0
-    minSpawnTime_Ammo: 0
-    maxSpawnTime_Ammo: 0
+    count_ItemHealth: 4
+    count_ItemAmmo: 4
+    minSpawnTime_Heal: 5
+    maxSpawnTime_Heal: 9
+    minSpawnTime_Ammo: 5
+    maxSpawnTime_Ammo: 9
   - infinite: 0
-    enemyCount: 15
-    moveSpeedA: 6
-    moveSpeedB: 4
-    enemyHealthA: 5
-    enemyHealthB: 4
-    hitsToKillPlayer: 10
+    enemyCount: 75
+    moveSpeedA: 7.5
+    moveSpeedB: 4.2
+    enemyHealthA: 8
+    enemyHealthB: 7
+    hitsToKillPlayer: 6
     skinColour: {r: 0, g: 1, b: 0.09174347, a: 0}
-    timeBetweenSpawns: 2
-    spawnRarity_A: 7
-    spawnRarity_B: 3
-    count_ItemHealth: 2
-    count_ItemAmmo: 2
-    minSpawnTime_Heal: 0
-    maxSpawnTime_Heal: 0
-    minSpawnTime_Ammo: 0
-    maxSpawnTime_Ammo: 0
+    timeBetweenSpawns: 2.2
+    spawnRarity_A: 3
+    spawnRarity_B: 2
+    count_ItemHealth: 5
+    count_ItemAmmo: 5
+    minSpawnTime_Heal: 5
+    maxSpawnTime_Heal: 11
+    minSpawnTime_Ammo: 5
+    maxSpawnTime_Ammo: 11
   - infinite: 0
-    enemyCount: 15
-    moveSpeedA: 6
-    moveSpeedB: 4
-    enemyHealthA: 5
-    enemyHealthB: 4
-    hitsToKillPlayer: 10
+    enemyCount: 100
+    moveSpeedA: 8
+    moveSpeedB: 4.5
+    enemyHealthA: 8
+    enemyHealthB: 8
+    hitsToKillPlayer: 5
     skinColour: {r: 0, g: 1, b: 0.09174347, a: 0}
     timeBetweenSpawns: 2
-    spawnRarity_A: 7
-    spawnRarity_B: 3
-    count_ItemHealth: 2
-    count_ItemAmmo: 2
-    minSpawnTime_Heal: 0
-    maxSpawnTime_Heal: 0
-    minSpawnTime_Ammo: 0
-    maxSpawnTime_Ammo: 0
+    spawnRarity_A: 1
+    spawnRarity_B: 1
+    count_ItemHealth: 6
+    count_ItemAmmo: 6
+    minSpawnTime_Heal: 5
+    maxSpawnTime_Heal: 15
+    minSpawnTime_Ammo: 5
+    maxSpawnTime_Ammo: 15
+  - infinite: 1
+    enemyCount: 140
+    moveSpeedA: 8.5
+    moveSpeedB: 5
+    enemyHealthA: 9
+    enemyHealthB: 9
+    hitsToKillPlayer: 4
+    skinColour: {r: 0, g: 1, b: 0.09174347, a: 0}
+    timeBetweenSpawns: 1.5
+    spawnRarity_A: 3
+    spawnRarity_B: 7
+    count_ItemHealth: 7
+    count_ItemAmmo: 7
+    minSpawnTime_Heal: 10
+    maxSpawnTime_Heal: 17
+    minSpawnTime_Ammo: 10
+    maxSpawnTime_Ammo: 17
   enemyA: {fileID: 8108138878997692311, guid: cdb754faaccba374e960b0c740f17f82, type: 3}
   enemyB: {fileID: 8989695201794036715, guid: 019a2a15b539586499e4826987ebe10d, type: 3}
   playerEntity: {fileID: 947602330}

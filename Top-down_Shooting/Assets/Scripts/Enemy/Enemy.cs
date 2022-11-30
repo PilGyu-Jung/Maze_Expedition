@@ -6,6 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class Enemy : LivingEntity
 {
+	Player player;
 	public enum State { Idle, Chasing, Attacking, Wandering };
 	
 	public enum EnemyType { TypeA, TypeB, TypeC };
@@ -48,6 +49,7 @@ public class Enemy : LivingEntity
 
 	void Awake()
 	{
+		player = FindObjectOfType<Player>();
 		pathfinder = GetComponent<NavMeshAgent>();
 		fov = GetComponent<FieldOfView>();
 		aiwander = GetComponent<AIWandering>();
@@ -198,7 +200,9 @@ public class Enemy : LivingEntity
             switch (enemyType)
             {
 				case EnemyType.TypeA:
-				if (Time.time > nextAttackTime)
+					if (player.dead)
+						return;
+					if (Time.time > nextAttackTime)
 				{
 					float sqrDstToTarget
 						= (target.position - transform.position).sqrMagnitude;
@@ -214,6 +218,8 @@ public class Enemy : LivingEntity
 				}
 					break;
 				case EnemyType.TypeB:
+					if (player.dead)
+						return;
 					CalculateDistanceToTargetAndSelectState();
 
 					break;

@@ -120,7 +120,7 @@ public class GameUI : MonoBehaviour
     //UI Input
     public void StartNewGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("ObjectSpawn");
     }
 
     public void ReturnToMainMenu()
